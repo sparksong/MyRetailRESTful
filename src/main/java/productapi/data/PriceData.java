@@ -1,6 +1,6 @@
 package productapi.data;
 
-//Class used to hold Price information retrieved from call to database.
+//Bean used to hold Price information retrieved from call to database.
 public class PriceData {
 
     private String value;

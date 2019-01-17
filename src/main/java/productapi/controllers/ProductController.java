@@ -78,7 +78,6 @@ public class ProductController {
 					.getJSONObject("product_description").getString("title");
 
 		} catch (IOException e) {
-			// TODO If time add in logging with SLF4J
 			// Error calling API for product information
 			e.printStackTrace();
 		} catch (JSONException e) {

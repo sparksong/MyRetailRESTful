@@ -1,6 +1,6 @@
 package productapi.data;
 
-//Class used to combine ProductData and PriceData
+//Bean used to combine ProductData and PriceData
 public class Product {
 
 	private ProductData productData;

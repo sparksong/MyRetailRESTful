@@ -11,7 +11,7 @@ import com.mongodb.MongoClient;
 
 import productapi.data.PriceData;
 
-//Service Facade used to access MongoDB for Price information.
+//Service Facade Implementation used to access MongoDB for Price information.
 public class PriceServiceFacadeImpl implements PriceServiceFacade {
 
 	public PriceData getProductPriceByID(String id) {
@@ -53,7 +53,7 @@ public class PriceServiceFacadeImpl implements PriceServiceFacade {
 			hasBeenUpdated = true;
 		}
 		
-		//If data has not changes, database does not need to be updated.
+		//If data has not changed, database does not need to be updated.
 		if(hasBeenUpdated) {
 			try {
 				MongoClient mongoClient = new MongoClient("localhost", 27017);

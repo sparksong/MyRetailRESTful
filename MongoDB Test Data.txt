@@ -1,0 +1,7 @@
+db.ProductPriceData.insertMany([
+   { id: "50608366", value: "13.49", currencyCode: "USD"},
+   { id: "13860428", value: "20.20", currencyCode: "USD"},
+   { id: "13860429", value: "1.99", currencyCode: "USD"},
+   { id: "53549317", value: "18.88", currencyCode: "USD"},
+   { id: "17088992", value: "137.01", currencyCode: "CAN"},
+]);
